@@ -115,3 +115,7 @@ a:active {
 .hnavbar a:hover {
   background-color: #111;
 }
+
+.page {
+  padding: 10px;
+}
