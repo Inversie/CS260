@@ -57,13 +57,15 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;                              /* Add this */
 }
 
-/*ul {   change how lists look
+ul {
   list-style-type: circle;
+  list-style-position: inside;
 }
 
 ol {
   list-style-type: lower-roman;
-}*/
+  list-style-position: inside;
+}
 
 a {  /* no underline on link */
   text-decoration: none;
