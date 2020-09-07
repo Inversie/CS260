@@ -102,6 +102,11 @@ a:active {
 .hnavbar li {
   display: inline;
   float: left;
+  border-right: 1px solid #bbb;
+}
+
+.hnavbar li:last-child {
+  border-right: none;
 }
 
 .hnavbar a {
@@ -114,6 +119,10 @@ a:active {
 
 .hnavbar a:hover {
   background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
 }
 
 .page {
