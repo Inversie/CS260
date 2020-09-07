@@ -6,6 +6,8 @@ body {
 
 h1 {
   font-size: 2em;
+  padding: 50px;
+  border: 1px solid #5D6063;
 }
 
 h2 {
@@ -31,4 +33,5 @@ a {  /* no underline on link */
 
 p {
   text-align: left;
+  padding: 20px 10px;  /* Vertical  Horizontal */
 }
