@@ -4,8 +4,12 @@
   box-sizing: border-box;
 }
 
-div {
-  color: #FFF;
+.button:link,                 /* Change this */
+.button:visited {             /* Change this */
+  display: block;             /* Add this */
+  text-decoration: none;      /* Add this */
+
+  color: #FFF;                /* The rest is the same */
   background-color: #5995DA;
   font-weight: bold;
   padding: 20px;
@@ -14,8 +18,19 @@ div {
   border-radius: 5px;
 
   width: 200px;
-  box-sizing: border-box;  /* Add this */
-  margin: 20px auto; /* Vertical  Horizontal */
+  margin: 20px auto;
+}
+
+.button:hover,
+.button:visited:hover {
+  color: #FFF;
+  background-color: #76AEED;  /* Light blue */
+}
+
+.button:active,
+.button:visited:active {
+  color: #FFF;
+  background-color: #5995DA;  /* Blue */
 }
 
 body {
@@ -57,4 +72,19 @@ p {
   text-align: left;
   /*padding: 20px 0 20px 10px;
   margin-bottom: 50px; */
+}
+
+a:link { /* changes how a link looks when you interact with it*/
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
 }
