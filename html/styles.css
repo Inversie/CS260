@@ -91,3 +91,9 @@ a:hover {
 a:active {
   color: red;
 }
+
+.hnavbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
