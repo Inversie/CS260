@@ -1,3 +1,9 @@
+* {   /* gets rid of default margin and padding from browser */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 div {
   color: #FFF;
   background-color: #5995DA;
